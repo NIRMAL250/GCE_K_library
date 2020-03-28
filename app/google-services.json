@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1051813223345",
+    "firebase_url": "https://gce-k-library.firebaseio.com",
+    "project_id": "gce-k-library",
+    "storage_bucket": "gce-k-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051813223345:android:f0058d829959595b8ebb90",
+        "android_client_info": {
+          "package_name": "com.example.gceklibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051813223345-20o4tu4kgq1ar7q4cehs6ce2ccikp2qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaBSOt5JRBvtxpskytYhSrlIEV1o-aqNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051813223345-20o4tu4kgq1ar7q4cehs6ce2ccikp2qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

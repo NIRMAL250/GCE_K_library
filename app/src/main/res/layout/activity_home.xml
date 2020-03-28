@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26C6DA"
+    tools:context=".Home">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/library"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E1F5FE"
+        android:layout_margin="20dp"
+        android:hint="Search"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="25dp"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/academicHome"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:background="#0277BD"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="9dp"
+        android:text="Academic"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:id="@+id/socialHome"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:background="#0277BD"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Social"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:id="@+id/techHome"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:background="#0277BD"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Technonlogy"
+        android:textColor="#ffffff"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/sportsHome"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="#0277BD"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="9dp"
+            android:text="Sports"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/artsHome"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="#0277BD"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Arts and Music"
+            android:textColor="#ffffff"
+            />
+        <TextView
+            android:id="@+id/businessHome"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:background="#0277BD"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Business"
+            android:textColor="#ffffff"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/profileHome"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:background="#0277BD"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Profile"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+</ScrollView>

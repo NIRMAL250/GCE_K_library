@@ -25,6 +25,47 @@ public class Academic extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Academic.this, Semcse.class);
+                intent.putExtra("BRANCH",1);
+                startActivity(intent);
+            }
+        });
+        ece.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Academic.this, Semcse.class);
+                intent.putExtra("BRANCH",2);
+                startActivity(intent);
+            }
+        });
+        eee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Academic.this, Semcse.class);
+                intent.putExtra("BRANCH",3);
+                startActivity(intent);
+            }
+        });
+        me.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Academic.this, Semcse.class);
+                intent.putExtra("BRANCH",4);
+                startActivity(intent);
+            }
+        });
+        ce.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Academic.this, Semcse.class);
+                intent.putExtra("BRANCH",5);
+                startActivity(intent);
+            }
+        });
+        common.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Academic.this, Semcse.class);
+                intent.putExtra("BRANCH",6);
                 startActivity(intent);
             }
         });

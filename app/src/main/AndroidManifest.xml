@@ -10,20 +10,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:testOnly="false">
-        <activity android:name=".Admin"></activity>
-        <activity android:name=".Profile" />
-        <activity android:name=".CSESem" />
+        android:testOnly="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Module" />
+        <activity android:name=".Home" />
+        <activity android:name=".Sem" />
         <activity android:name=".Semcse" />
         <activity android:name=".Academic" />
-        <activity android:name=".Business" />
-        <activity android:name=".Sports" />
-        <activity android:name=".Arts" />
-        <activity android:name=".Technology" />
-        <activity android:name=".Social" />
-        <activity android:name=".Home" />
-        <activity android:name=".Authentication">
+        <activity android:name=".Notification" />
+        <activity android:name=".Article" />
+        <activity android:name=".Nonacademic" />
+        <activity android:name=".Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

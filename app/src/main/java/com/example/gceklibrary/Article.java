@@ -1,13 +1,14 @@
 package com.example.gceklibrary;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class Social extends AppCompatActivity {
+public class Article extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_social);
+        setContentView(R.layout.activity_article);
     }
 }

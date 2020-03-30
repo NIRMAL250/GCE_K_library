@@ -4,115 +4,85 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#26C6DA"
+    android:background="#244d49"
     tools:context=".Home">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="@mipmap/library"/>
+   <ImageView
+       android:layout_width="180dp"
+       android:layout_height="180dp"
+       android:layout_gravity="center"
+       android:src="@mipmap/screen"/>
 
     <AutoCompleteTextView
         android:id="@+id/word"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E1F5FE"
+        android:background="@drawable/radius"
         android:layout_margin="20dp"
+        android:padding="5dp"
         android:hint="Search"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginTop="25dp"
-    android:gravity="center">
-    <TextView
-        android:id="@+id/academicHome"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:background="#0277BD"
-        android:gravity="center"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="9dp"
-        android:text="Academic"
-        android:textColor="#ffffff"
-        />
-    <TextView
-        android:id="@+id/socialHome"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:background="#0277BD"
-        android:gravity="center"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Social"
-        android:textColor="#ffffff"
-        />
-    <TextView
-        android:id="@+id/techHome"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:background="#0277BD"
-        android:gravity="center"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Technonlogy"
-        android:textColor="#ffffff"
-        />
-</LinearLayout>
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:padding="25dp"
+        android:background="@drawable/radius">
+            <TextView
+                android:id="@+id/academicHome"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:background="@drawable/radius2"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+                android:text="Academic"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:textAppearanceMedium"/>
+            <TextView
+                android:id="@+id/nonacademicHome"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:background="@drawable/radius2"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Non academic"
+                android:textColor="#ffffff"
+                android:textAppearance="?android:textAppearanceMedium"/>
         <TextView
-            android:id="@+id/sportsHome"
+            android:id="@+id/articleHome"
+            android:layout_below="@+id/academicHome"
             android:layout_width="110dp"
             android:layout_height="80dp"
-            android:background="#0277BD"
+            android:background="@drawable/radius2"
             android:gravity="center"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="9dp"
-            android:text="Sports"
-            android:textColor="#ffffff" />
-        <TextView
-            android:id="@+id/artsHome"
-            android:layout_width="110dp"
-            android:layout_height="80dp"
-            android:background="#0277BD"
-            android:gravity="center"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:text="Arts and Music"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="Articles"
             android:textColor="#ffffff"
-            />
+            android:textAppearance="?android:textAppearanceMedium"/>
         <TextView
-            android:id="@+id/businessHome"
+            android:id="@+id/notificationHome"
+            android:layout_below="@+id/academicHome"
             android:layout_width="110dp"
             android:layout_height="80dp"
-            android:background="#0277BD"
+            android:background="@drawable/radius2"
             android:gravity="center"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:text="Business"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:text="Notifications"
             android:textColor="#ffffff"
-            />
-    </LinearLayout>
-    <TextView
-        android:id="@+id/profileHome"
-        android:layout_width="110dp"
-        android:layout_height="80dp"
-        android:background="#0277BD"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:text="Profile"
-        android:textColor="#ffffff" />
-
+            android:textAppearance="?android:textAppearanceMedium"/>
+</RelativeLayout>
 </LinearLayout>
 </ScrollView>

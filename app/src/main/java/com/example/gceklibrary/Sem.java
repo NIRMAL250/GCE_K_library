@@ -13,41 +13,41 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class CSESem extends AppCompatActivity {
+public class Sem extends AppCompatActivity {
     WebView w;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_csesem);
+        setContentView(R.layout.activity_sem);
 
         String s = getIntent().getStringExtra("SEM");
         int opt = Integer.parseInt(s);
-        String s1 = "https://drive.google.com/open?id=18crSvHlCf5Ld0ozEJMlTNjV9jiEOamUx";
+        //String s1 = "https://drive.google.com/open?id=18crSvHlCf5Ld0ozEJMlTNjV9jiEOamUx";
         String s2 = "https://drive.google.com/open?id=12NsXXzVHZEMC-2oynkUzOvXTVwRaICeC";
-        String s3 = "https://drive.google.com/open?id=1p7bSMBQ6xWAgT0fHyzM9eJCrsJDS7vNe";
-        String s4 = "https://drive.google.com/open?id=1ez7AVh0WlNJ4VjABOzzIQ7kU60jzstvQ";
-        String s5 = "https://drive.google.com/open?id=1KJ9YcuZ4PFN0IrWtuOu8W5g1g97a6nRI";
-        String s6 = "https://drive.google.com/open?id=1XqURze5MxDR4ScHsy-ONWAn13tv8uHbC";
-        String s7 = "https://drive.google.com/open?id=1GTmrh4znh_xfZFUijy2eAqemcToUqJsR";
-        String s8 = "https://drive.google.com/open?id=1rDL-nn5QoSDhCkhcXZQ78YV-gNjPb1Mk";
+        //String s3 = "https://drive.google.com/open?id=1p7bSMBQ6xWAgT0fHyzM9eJCrsJDS7vNe";
+        //String s4 = "https://drive.google.com/open?id=1ez7AVh0WlNJ4VjABOzzIQ7kU60jzstvQ";
+        //String s5 = "https://drive.google.com/open?id=1KJ9YcuZ4PFN0IrWtuOu8W5g1g97a6nRI";
+        //String s6 = "https://drive.google.com/open?id=1XqURze5MxDR4ScHsy-ONWAn13tv8uHbC";
+        //String s7 = "https://drive.google.com/open?id=1GTmrh4znh_xfZFUijy2eAqemcToUqJsR";
+        //String s8 = "https://drive.google.com/open?id=1rDL-nn5QoSDhCkhcXZQ78YV-gNjPb1Mk";
 
         switch (opt)
         {
-            case 1 : semester(s1);
+            case 1 : //semester(s1);
                      break;
             case 2 : semester(s2);
                      break;
-            case 3 : semester(s3);
+            case 3 : //semester(s3);
                      break;
-            case 4 : semester(s4);
+            case 4 : //semester(s4);
                      break;
-            case 5 : semester(s5);
+            case 5 : //semester(s5);
                      break;
-            case 6 : semester(s6);
+            case 6 : //semester(s6);
                      break;
-            case 7 : semester(s7);
+            case 7 : //semester(s7);
                      break;
-            case 8 : semester(s8);
+            case 8 : //semester(s8);
                      break;
         }
 

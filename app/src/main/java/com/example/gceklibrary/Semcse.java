@@ -25,7 +25,7 @@ public class Semcse extends AppCompatActivity {
         s1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "1");
                 startActivity(intent);
             }
@@ -33,7 +33,7 @@ public class Semcse extends AppCompatActivity {
         s2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "2");
                 startActivity(intent);
             }
@@ -41,7 +41,7 @@ public class Semcse extends AppCompatActivity {
         s3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "3");
                 startActivity(intent);
             }
@@ -49,7 +49,7 @@ public class Semcse extends AppCompatActivity {
         s4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "4");
                 startActivity(intent);
             }
@@ -57,7 +57,7 @@ public class Semcse extends AppCompatActivity {
         s5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "5");
                 startActivity(intent);
             }
@@ -65,7 +65,7 @@ public class Semcse extends AppCompatActivity {
         s6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "6");
                 startActivity(intent);
             }
@@ -73,7 +73,7 @@ public class Semcse extends AppCompatActivity {
         s7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "7");
                 startActivity(intent);
             }
@@ -81,7 +81,7 @@ public class Semcse extends AppCompatActivity {
         s8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Semcse.this, CSESem.class);
+                Intent intent = new Intent(Semcse.this, Sem.class);
                 intent.putExtra("SEM", "8");
                 startActivity(intent);
             }

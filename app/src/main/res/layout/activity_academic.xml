@@ -73,19 +73,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:text="CE"
-            android:textColor="#ffffff"
-            />
-        <TextView
-            android:id="@+id/academicCOMMON"
-            android:layout_width="110dp"
-            android:layout_height="80dp"
-            android:background="#0277BD"
-            android:gravity="center"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="10dp"
-            android:text="Common"
-            android:textColor="#ffffff"
-            />
+            android:textColor="#ffffff" />
     </LinearLayout>
 
 

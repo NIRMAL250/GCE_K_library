@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Semcse">
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Module">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SEMESTER"
+        android:text="MODULES"
         android:textSize="25dp"
         android:layout_marginTop="25dp"
         android:gravity="center"/>
@@ -23,60 +23,46 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="50dp"/>
     <TextView
-        android:id="@+id/s1"
+        android:id="@+id/m1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="S1"
+        android:text="Module 1"
         android:gravity="center"
         android:background="#64FFDA"/>
     <TextView
-        android:id="@+id/s2"
+        android:id="@+id/m2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="S2"
+        android:text="Module 2"
         android:gravity="center"
         android:background="#FFECB3"/>
     <TextView
-        android:id="@+id/s3"
+        android:id="@+id/m3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="S3"
+        android:text="Module 3"
         android:gravity="center"
         android:background="#64FFDA"/>
     <TextView
-        android:id="@+id/s4"
+        android:id="@+id/m4"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="S4"
+        android:text="Module 4"
         android:gravity="center"
         android:background="#FFECB3"/>
     <TextView
-        android:id="@+id/s5"
+        android:id="@+id/m5"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="S5"
+        android:text="Module 5"
         android:gravity="center"
         android:background="#64FFDA"/>
     <TextView
-        android:id="@+id/s6"
+        android:id="@+id/m6"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="S6"
+        android:text="Module 6"
         android:gravity="center"
         android:background="#FFECB3"/>
-    <TextView
-        android:id="@+id/s7"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="S7"
-        android:gravity="center"
-        android:background="#64FFDA"/>
-    <TextView
-        android:id="@+id/s8"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="S8"
-        android:gravity="center"
-        android:background="#FFECB3"/>
-    </LinearLayout>
+</LinearLayout>
 </ScrollView>

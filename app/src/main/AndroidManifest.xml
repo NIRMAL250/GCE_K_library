@@ -14,8 +14,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Module" />
         <activity android:name=".Home" />
-        <activity android:name=".Sem" />
-        <activity android:name=".Semcse" />
+        <activity android:name=".Semmodule" />
+        <activity android:name=".Semester" />
         <activity android:name=".Academic" />
         <activity android:name=".Notification" />
         <activity android:name=".Article" />

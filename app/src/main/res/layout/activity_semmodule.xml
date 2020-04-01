@@ -4,65 +4,96 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
+    android:background="#244d49"
 tools:context=".Module">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/radius4"
+    android:padding="15dp">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="MODULES"
         android:textSize="25dp"
+        android:fontFamily="@font/dancing_script"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
         android:layout_marginTop="25dp"
         android:gravity="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#000000"
+        android:background="#ffffff"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="50dp"/>
     <TextView
         android:id="@+id/m1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="Module 1"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/m2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="Module 2"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/m3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="Module 3"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/m4"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="Module 4"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/m5"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="Module 5"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/m6"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="Module 6"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
 </LinearLayout>
 </ScrollView>

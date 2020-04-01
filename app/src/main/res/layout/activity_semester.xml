@@ -4,79 +4,119 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#244d49"
     tools:context=".Semester">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/radius4"
+    android:padding="15dp"
     android:orientation="vertical">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SEMESTER"
-        android:textSize="25dp"
         android:layout_marginTop="25dp"
-        android:gravity="center"/>
+        android:fontFamily="@font/dancing_script"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="SEMESTER"
+        android:textSize="25dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#000000"
+        android:background="#ffffff"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="50dp"/>
     <TextView
         android:id="@+id/s1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="S1"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s2"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="S2"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s3"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="S3"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s4"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:text="S4"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s5"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="S5"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s6"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="S6"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s7"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="S7"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:gravity="center"
-        android:background="#64FFDA"/>
+        android:background="@drawable/ripple"/>
     <TextView
         android:id="@+id/s8"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="S8"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:gravity="center"
-        android:background="#FFECB3"/>
+        android:background="@drawable/ripple"/>
     </LinearLayout>
 </ScrollView>

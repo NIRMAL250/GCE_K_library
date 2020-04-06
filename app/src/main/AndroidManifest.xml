@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:testOnly="false"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
         <activity android:name=".Module" />
         <activity android:name=".Home" />
         <activity android:name=".Semmodule" />

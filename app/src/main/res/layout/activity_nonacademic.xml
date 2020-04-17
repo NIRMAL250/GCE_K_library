@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="@mipmap/liber"
     tools:context=".Nonacademic">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello world"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/radio"
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/radius3"
+                    android:gravity="center"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Radio"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    />
+                <TextView
+                    android:id="@+id/books"
+                    android:layout_width="110dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/radius3"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Books"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:textColor="#ffffff"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
 </LinearLayout>

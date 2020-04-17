@@ -82,9 +82,8 @@ public class Home extends AppCompatActivity {
         nonacademic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent = new Intent(Home.this, Nonacademic.class);
-                //startActivity(intent);
-                Toast.makeText(Home.this,"Under development...",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Home.this, Nonacademic.class);
+                startActivity(intent);
             }
         });
         articles.setOnClickListener(new View.OnClickListener() {

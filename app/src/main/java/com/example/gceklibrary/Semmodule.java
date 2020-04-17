@@ -30,7 +30,7 @@ public class Semmodule extends AppCompatActivity {
         m5 = findViewById(R.id.m5);
         m6 = findViewById(R.id.m6);
         branch_sem();
-      /*  m1.setOnClickListener(new View.OnClickListener() {
+        m1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 1;
@@ -47,7 +47,7 @@ public class Semmodule extends AppCompatActivity {
                 intent.putExtra("MODULE",branchsemmod);
                 startActivity(intent);
             }
-        });*/
+        });
         m3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +58,7 @@ public class Semmodule extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-      /*  m4.setOnClickListener(new View.OnClickListener() {
+        m4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 4;
@@ -84,7 +84,7 @@ public class Semmodule extends AppCompatActivity {
                 intent.putExtra("MODULE",branchsemmod);
                 startActivity(intent);
             }
-        });*/
+        });
     }
     private void branch_sem()
     {

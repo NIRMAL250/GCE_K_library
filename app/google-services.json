@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "1051813223345",
-    "firebase_url": "https://gce-k-library.firebaseio.com",
-    "project_id": "gce-k-library",
-    "storage_bucket": "gce-k-library.appspot.com"
+    "project_number": "408776774289",
+    "firebase_url": "https://liber-4dea7.firebaseio.com",
+    "project_id": "liber-4dea7",
+    "storage_bucket": "liber-4dea7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1051813223345:android:f0058d829959595b8ebb90",
+        "mobilesdk_app_id": "1:408776774289:android:b00f9f443bcae762b56530",
         "android_client_info": {
           "package_name": "com.example.gceklibrary"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1051813223345-20o4tu4kgq1ar7q4cehs6ce2ccikp2qj.apps.googleusercontent.com",
+          "client_id": "408776774289-pispto3kvkt4mo2efkhpl55un07mvhrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gceklibrary",
+            "certificate_hash": "fc34bc0a40dc87cd505792f6c8f28d0bd0a53046"
+          }
+        },
+        {
+          "client_id": "408776774289-vkalu5up50kni9ham965bu7toikk0ab0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDaBSOt5JRBvtxpskytYhSrlIEV1o-aqNk"
+          "current_key": "AIzaSyDKboNYYtRwblNVk4FvMD4qOE_4qJ9PstQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1051813223345-20o4tu4kgq1ar7q4cehs6ce2ccikp2qj.apps.googleusercontent.com",
+              "client_id": "408776774289-vkalu5up50kni9ham965bu7toikk0ab0.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

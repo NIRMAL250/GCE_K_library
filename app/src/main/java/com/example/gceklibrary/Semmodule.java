@@ -34,8 +34,9 @@ public class Semmodule extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 1;
+                String bsm = Integer.toString(branchsemmod);
                 Intent intent = new Intent(Semmodule.this, Module.class);
-                intent.putExtra("MODULE",branchsemmod);
+                intent.putExtra("MODULE",bsm);
                 startActivity(intent);
             }
         });
@@ -43,8 +44,9 @@ public class Semmodule extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 2;
+                String bsm = Integer.toString(branchsemmod);
                 Intent intent = new Intent(Semmodule.this, Module.class);
-                intent.putExtra("MODULE",branchsemmod);
+                intent.putExtra("MODULE",bsm);
                 startActivity(intent);
             }
         });
@@ -62,8 +64,9 @@ public class Semmodule extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 4;
+                String bsm = Integer.toString(branchsemmod);
                 Intent intent = new Intent(Semmodule.this, Module.class);
-                intent.putExtra("MODULE",branchsemmod);
+                intent.putExtra("MODULE",bsm);
                 startActivity(intent);
             }
         });
@@ -71,8 +74,9 @@ public class Semmodule extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 5;
+                String bsm = Integer.toString(branchsemmod);
                 Intent intent = new Intent(Semmodule.this, Module.class);
-                intent.putExtra("MODULE",branchsemmod);
+                intent.putExtra("MODULE",bsm);
                 startActivity(intent);
             }
         });
@@ -80,8 +84,9 @@ public class Semmodule extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 branchsemmod = branchsemmod + 6;
+                String bsm = Integer.toString(branchsemmod);
                 Intent intent = new Intent(Semmodule.this, Module.class);
-                intent.putExtra("MODULE",branchsemmod);
+                intent.putExtra("MODULE",bsm);
                 startActivity(intent);
             }
         });

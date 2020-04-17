@@ -38,7 +38,7 @@ public class Home extends AppCompatActivity {
         word = findViewById(R.id.word);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReferenceFromUrl("https://gce-k-library.firebaseio.com/books");
+        /*DatabaseReference myRef = database.getReferenceFromUrl("");
 
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Home.this, android.R.layout.simple_list_item_1, books);
         word.setAdapter(arrayAdapter);
@@ -70,7 +70,7 @@ public class Home extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
-        });
+        });*/
 
         academic.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -97,8 +97,9 @@ public class Home extends AppCompatActivity {
         notification.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, Notification.class);
-                startActivity(intent);
+               // Intent intent = new Intent(Home.this, Notification.class);
+               // startActivity(intent);
+                Toast.makeText(Home.this,"Under development...",Toast.LENGTH_SHORT).show();
             }
         });
     }

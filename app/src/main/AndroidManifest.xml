@@ -22,6 +22,7 @@
         <activity android:name=".Notification" />
         <activity android:name=".Article" />
         <activity android:name=".Nonacademic" />
+        <activity android:name=".Link" />
         <activity android:name=".Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

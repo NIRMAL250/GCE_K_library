@@ -22,7 +22,7 @@ public class Notification extends AppCompatActivity {
 
         mListView = findViewById(R.id.listview);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference databaseReference = database.getReferenceFromUrl("https://gce-k-library.firebaseio.com/article");
+        DatabaseReference databaseReference = database.getReferenceFromUrl("https://liber-4dea7.firebaseio.com/article");
         FirebaseListAdapter<String> firebaseListAdapter = new FirebaseListAdapter<String>(this,String.class,android.R.layout.simple_list_item_1,databaseReference) {
             @Override
             protected void populateView(View v, String model, int position) {

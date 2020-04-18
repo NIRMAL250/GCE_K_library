@@ -32,38 +32,39 @@ public class Nonacademic extends AppCompatActivity {
         TextView radio, books;
         radio = findViewById(R.id.radio);
         books = findViewById(R.id.books);
+        final MediaPlayer player = new MediaPlayer();
+        String flag = getIntent().getStringExtra("FLAG");
+        int FLAG = Integer.parseInt(flag);
+        if(FLAG == 1) {
+            final Uri uri = Uri.parse("http://node-23.zeno.fm/8u7gh0uy8vzuv?rj-ttl=4&rj-tok=AAABcYcyHMEArhLhG9A3UMzaDA");
+            try {
 
+                player.setAudioStreamType(AudioManager.STREAM_MUSIC);
+                player.setDataSource(Nonacademic.this, uri);
+                player.prepare();
+            } catch (Exception e) {
+                System.out.println(e.toString());
+            }
+        }
         radio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                final MediaPlayer player = new MediaPlayer();
-                try{
+
                     if(PLAY == 0) {
-                        Uri uri = Uri.parse("http://node-23.zeno.fm/8u7gh0uy8vzuv?rj-ttl=4&rj-tok=AAABcYcyHMEArhLhG9A3UMzaDA");
-                        player.setAudioStreamType(AudioManager.STREAM_MUSIC);
-                        player.setDataSource(Nonacademic.this, uri);
-                        player.prepare();
                         PLAY = 1;
                         player.start();
                     }
                     else if(PLAY == 1)
                     {
-                        Toast.makeText(Nonacademic.this,"stopping..",Toast.LENGTH_SHORT).show();
                         PLAY = 0;
-                        player.stop();
-                        player.reset();
-                        player.release();
+                        player.pause();
                     }
-                }catch (Exception e)
-                {
-                    System.out.println(e.toString());
                 }
-            }
         });
         books.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               url = "";
+               url = "https://drive.google.com/folderview?id=1iODUjfOie2M8hsYYK3QreKeqPUHYew5N";
                 Intent intent = new Intent(Nonacademic.this, Link.class);
                 intent.putExtra("LINK",url);
                 startActivity(intent);
